@@ -88,7 +88,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**You are not in our Back-up channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            text="**Hᴇʏ, Bᴜᴅᴅʏ 😃\n\nYᴏᴜ Hᴀᴠᴇ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Uᴘᴅᴀᴛᴇᴅ Cʜᴀɴɴᴇʟ ✅\n\nSᴏ Yᴏᴜ Wɪʟʟ Nᴏᴛ Gᴇᴛ Aɴʏ MᴏᴠɪᴇS Fɪʟᴇ. 😅\n\nIғ Yᴏᴜ Wᴀɴᴛ Tᴏ Gᴇᴛ Mᴏᴠɪᴇ Fɪʟᴇ Tʜᴇɴ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇᴅ Cʜᴀɴɴᴇʟ Aɴᴅ Cʟɪᴄᴋ Oɴ Tʀʏ Aɢᴀɪɴ.. 😉**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
