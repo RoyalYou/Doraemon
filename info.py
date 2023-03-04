@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Doraemon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'dac861e077d89e423386b02dc53c59c53092605a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'OmegaLinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c534b26e7457f95d13076af9a6e617f576cf4731')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
